@@ -20,7 +20,7 @@ const Hero: React.FC<HeroProps> = ({ onSchedule }) => {
             
             <h1 className="text-5xl md:text-7xl font-extrabold text-zinc-900 dark:text-zinc-100 leading-tight tracking-tight transition-colors duration-500">
               Maximum Comfort. <br />
-              <span className="text-emerald-600 dark:text-emerald-500 drop-shadow-[0_0_15px_rgba(16,185,129,0.3)]">Nexus Reliable.</span>
+              <span className="text-emerald-600 dark:text-emerald-500 drop-shadow-[0_0_15px_rgba(16,185,129,0.3)]">Falcon Reliable.</span>
             </h1>
             
             <p className="text-xl text-zinc-600 dark:text-zinc-400 max-w-xl leading-relaxed font-medium transition-colors duration-500">

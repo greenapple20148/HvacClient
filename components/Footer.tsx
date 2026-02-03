@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
                 </svg>
               </div>
               <span className="text-xl font-black tracking-tighter text-zinc-900 dark:text-white">
-                NEXUS <span className="text-emerald-600 dark:text-emerald-500 italic">HVAC</span>
+                Falcon <span className="text-emerald-600 dark:text-emerald-500 italic">HVAC</span>
               </span>
             </div>
             <p className="text-sm leading-relaxed font-medium">
@@ -53,14 +53,14 @@ const Footer: React.FC = () => {
             <h4 className="text-zinc-900 dark:text-white font-black uppercase tracking-widest text-xs mb-4">Emergency Support</h4>
             <p className="text-emerald-600 dark:text-emerald-500 text-2xl font-black mb-4 tracking-tighter">(800) 555-0199</p>
             <p className="text-[10px] text-zinc-500 dark:text-zinc-600 mb-6 uppercase font-black tracking-widest">Available 24/7/365</p>
-            <a href="mailto:service@nexushvac.example" className="text-xs hover:text-zinc-900 dark:hover:text-white underline transition-colors uppercase font-bold tracking-widest">
+            <a href="mailto:service@Falconhvac.example" className="text-xs hover:text-zinc-900 dark:hover:text-white underline transition-colors uppercase font-bold tracking-widest">
               Request Quote
             </a>
           </div>
         </div>
 
         <div className="pt-8 border-t border-zinc-200 dark:border-zinc-900 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] font-black uppercase tracking-widest">
-          <p>© 2024 Nexus HVAC & Plumbing. All rights reserved.</p>
+          <p>© 2024 Falcon HVAC & Plumbing. All rights reserved.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-emerald-600 dark:hover:text-emerald-500 transition-colors">Privacy</a>
             <a href="#" className="hover:text-emerald-600 dark:hover:text-emerald-500 transition-colors">Terms</a>

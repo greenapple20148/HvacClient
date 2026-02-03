@@ -23,7 +23,7 @@ const initialProjects: Project[] = [
     title: 'High-Efficiency Heat Pump',
     category: 'Installation',
     img: 'https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&q=80&w=800',
-    desc: 'A recent Nexus-Gold standard heat pump installation featuring variable speed technology for silent operation.'
+    desc: 'A recent Falcon-Gold standard heat pump installation featuring variable speed technology for silent operation.'
   },
   {
     id: 'p3',
@@ -59,7 +59,7 @@ const Gallery: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-16 flex flex-col md:flex-row md:items-end justify-between gap-6">
           <div>
-            <h2 className="text-emerald-600 dark:text-emerald-500 font-black tracking-widest uppercase text-xs mb-4">Nexus Showcase</h2>
+            <h2 className="text-emerald-600 dark:text-emerald-500 font-black tracking-widest uppercase text-xs mb-4">Falcon Showcase</h2>
             <h3 className="text-4xl md:text-5xl font-black text-zinc-900 dark:text-zinc-100">Precision In Every Connection</h3>
           </div>
           <p className="text-zinc-500 dark:text-zinc-400 max-w-sm font-medium">

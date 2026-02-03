@@ -25,7 +25,7 @@ const Navbar: React.FC<NavbarProps> = ({ onSchedule, theme, onToggleTheme }) => 
     },
     {
       title: 'Our Company',
-      links: ['About Nexus', 'Community Involvement', 'Reviews', 'Careers', 'Blog', 'FAQs']
+      links: ['About Falcon', 'Community Involvement', 'Reviews', 'Careers', 'Blog', 'FAQs']
     },
     { title: 'Service Area', links: [] },
     { title: 'Contact Us', links: [] }
@@ -66,7 +66,7 @@ const Navbar: React.FC<NavbarProps> = ({ onSchedule, theme, onToggleTheme }) => 
               </svg>
             </div>
             <span className="text-2xl font-black tracking-tighter text-zinc-900 dark:text-zinc-100 leading-none">
-              NEXUS <br />
+              Falcon <br />
               <span className="text-emerald-600 dark:text-emerald-500 italic">HVAC</span>
             </span>
           </div>

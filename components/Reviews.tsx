@@ -5,23 +5,23 @@ const reviews = [
   {
     name: 'Sarah Jenkins',
     location: 'Arlington, VA',
-    text: 'Nexus HVAC saved us during the hottest week of July. Their technician, Mike, was professional and explained exactly what went wrong with our compressor.',
+    text: 'Falcon HVAC saved us during the hottest week of July. Their technician, Mike, was professional and explained exactly what went wrong with our compressor.',
     stars: 5,
-    img: 'https://picsum.photos/seed/sarah-nexus/100/100'
+    img: 'https://picsum.photos/seed/sarah-Falcon/100/100'
   },
   {
     name: 'Robert Miller',
     location: 'Fairfax, VA',
     text: 'We had an emergency pipe burst in the basement. They arrived in 45 minutes and had everything under control. Truly reliable plumbing service.',
     stars: 5,
-    img: 'https://picsum.photos/seed/robert-nexus/100/100'
+    img: 'https://picsum.photos/seed/robert-Falcon/100/100'
   },
   {
     name: 'Emily Chen',
     location: 'Bethesda, MD',
     text: 'Installed a new high-efficiency heat pump. The team was clean, polite, and the energy savings have already started showing up on my bill!',
     stars: 5,
-    img: 'https://picsum.photos/seed/emily-nexus/100/100'
+    img: 'https://picsum.photos/seed/emily-Falcon/100/100'
   }
 ];
 

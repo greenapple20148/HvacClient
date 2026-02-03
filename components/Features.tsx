@@ -3,7 +3,7 @@ import React from 'react';
 
 const features = [
   {
-    title: 'Nexus Smart Monitoring',
+    title: 'Falcon Smart Monitoring',
     desc: 'Real-time diagnostic sensors that alert us to issues before your system fails.',
     icon: '🛰️'
   },

@@ -17,7 +17,7 @@ const AIAgent: React.FC<AIAgentProps> = ({ onSchedule }) => {
   const [messages, setMessages] = useState<Message[]>([
     { 
       role: 'assistant', 
-      content: "Hi! I'm your Nexus HVAC Specialist. Need help with a cold heater, noisy AC, or plumbing tip? I can also help you book a technician. How can I assist you?" 
+      content: "Hi! I'm your Falcon HVAC Specialist. Need help with a cold heater, noisy AC, or plumbing tip? I can also help you book a technician. How can I assist you?" 
     }
   ]);
   const [input, setInput] = useState('');
@@ -65,7 +65,7 @@ const AIAgent: React.FC<AIAgentProps> = ({ onSchedule }) => {
                 </svg>
               </div>
               <div>
-                <h4 className="font-black text-sm leading-none">Nexus HVAC Pro</h4>
+                <h4 className="font-black text-sm leading-none">Falcon HVAC Pro</h4>
                 <span className="text-[10px] font-bold uppercase tracking-tighter flex items-center gap-1 mt-1 opacity-70">
                   <span className="w-1.5 h-1.5 bg-zinc-950 rounded-full animate-pulse"></span>
                   Online Expert

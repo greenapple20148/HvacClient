@@ -14,14 +14,14 @@ import ScheduleModule from './components/ScheduleModule';
 const App: React.FC = () => {
   const [isScheduleOpen, setIsScheduleOpen] = useState(false);
   const [theme, setTheme] = useState<'dark' | 'light'>(() => {
-    return (localStorage.getItem('nexus-theme') as 'dark' | 'light') || 'dark';
+    return (localStorage.getItem('Falcon-theme') as 'dark' | 'light') || 'dark';
   });
 
   const toggleSchedule = () => setIsScheduleOpen(!isScheduleOpen);
   const toggleTheme = () => {
     const newTheme = theme === 'dark' ? 'light' : 'dark';
     setTheme(newTheme);
-    localStorage.setItem('nexus-theme', newTheme);
+    localStorage.setItem('Falcon-theme', newTheme);
   };
 
   useEffect(() => {
@@ -64,7 +64,7 @@ const App: React.FC = () => {
           <div className="max-w-7xl mx-auto px-4 text-center relative z-10">
             <h2 className="text-4xl md:text-6xl font-black text-zinc-950 mb-6 tracking-tight">Ready for 5-Star Service?</h2>
             <p className="text-emerald-950/80 text-xl mb-12 max-w-2xl mx-auto font-bold">
-              Schedule your inspection today and see why Nexus is the highest-rated HVAC team in the region.
+              Schedule your inspection today and see why Falcon is the highest-rated HVAC team in the region.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <button 

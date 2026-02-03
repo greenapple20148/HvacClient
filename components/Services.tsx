@@ -55,7 +55,7 @@ const Services: React.FC<ServicesProps> = ({ onSchedule }) => {
             <h3 className="text-4xl md:text-5xl font-black text-zinc-900 dark:text-zinc-100 leading-tight">Professional Engineering For Residential Comfort</h3>
           </div>
           <p className="text-zinc-500 dark:text-zinc-400 max-w-sm mb-2 font-medium">
-            Nexus delivery models leverage military-grade precision and the latest thermodynamic research to ensure your home remains an oasis.
+            Falcon delivery models leverage military-grade precision and the latest thermodynamic research to ensure your home remains an oasis.
           </p>
         </div>
 
