@@ -1,0 +1,7 @@
+{
+  "name": "Nexus HVAC & Plumbing Pro",
+  "description": "A high-end, AI-powered professional HVAC and Plumbing services platform featuring intelligent diagnostics, smart scheduling, and 24/7 support.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
